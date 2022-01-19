@@ -13,8 +13,6 @@ jobs:
         run: yarn install
       - name: "check translations"
         run: yarn check:i18n
-      - name: "run test"
-        run: yarn test
   build:
     needs: [ test ]
     runs-on: ubuntu-latest

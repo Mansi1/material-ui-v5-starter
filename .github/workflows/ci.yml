@@ -1,19 +1,20 @@
 name: "Node CI/CD"
 on: [push, pull_request]
-test:
-  runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@v2
-    - uses: actions/cache@v2
-      with:
-        path: "node_modules"
-        key: ${{ runner.os }}-modules-${{ hashFiles('yarn.lock') }}
-    - name: "install dependencies"
-      run: yarn install
-    - name: "check translations"
-      run: yarn check:i18n
-    - name: "run test"
-      run: yarn test
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        with:
+          path: "node_modules"
+          key: ${{ runner.os }}-modules-${{ hashFiles('yarn.lock') }}
+      - name: "install dependencies"
+        run: yarn install
+      - name: "check translations"
+        run: yarn check:i18n
+      - name: "run test"
+        run: yarn test
   build:
     runs-on: ubuntu-latest
     steps:

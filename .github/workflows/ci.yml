@@ -1,4 +1,4 @@
-name: "Node CI/CD"
+name: "Node CI"
 on: [push, pull_request]
 jobs:
   test:
@@ -31,26 +31,3 @@ jobs:
         with:
           name: frontend-build
           path: build
-  gh-pages:
-    needs: [ test, build ]
-    name: gh-pages
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main'
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12.x
-      - name: Download build
-        uses: actions/download-artifact@v2
-        with:
-          name: frontend-build
-      - name: rename folder
-        run: |
-          cp build/index.html build/404.html
-          mv build docs
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs  # default: public

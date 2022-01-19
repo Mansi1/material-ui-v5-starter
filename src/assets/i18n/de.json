@@ -1,0 +1,10 @@
+{
+  "main": {
+    "Material UI v5 starter": "Material UI v5 Einstieg",
+    "Used plugins": "Benutzte Plugins",
+    "translation": "Übersetzung",
+    "utils lib": "Hilfsbibliothek",
+    "core lib": "Hauptbibliothek",
+       "icons lib": "Symbolbibliothek"
+  }
+}

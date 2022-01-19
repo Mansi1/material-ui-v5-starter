@@ -16,6 +16,7 @@ jobs:
       - name: "run test"
         run: yarn test
   build:
+    needs: [ test ]
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -33,10 +34,10 @@ jobs:
           name: frontend-build
           path: build
   gh-pages:
-    needs: [ build ]
+    needs: [ test, build ]
     name: gh-pages
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/master'
+    if: github.ref == 'refs/heads/main'
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1

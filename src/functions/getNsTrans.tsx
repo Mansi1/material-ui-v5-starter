@@ -5,7 +5,7 @@ import {
 } from "react-i18next"
 
 export type TransProps = Omit<
-  I18nTransProps<any, DefaultNamespace, HTMLDivElement>,
+  I18nTransProps<never, DefaultNamespace, HTMLDivElement>,
   "ns"
 >
 

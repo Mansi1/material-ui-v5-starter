@@ -2,6 +2,8 @@
 
 This project build on creat-react-app and uses ready to start integration with translation custom git hooks code formatting and commit linting
 
+<b>!!! Delete homepage in package.json !!!</b>
+
 ## Available Scripts
 
 In the project directory, you can run:

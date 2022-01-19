@@ -1,12 +1,12 @@
-name: 'Continue Deployment'
+name: 'Continuous Deployment'
 
 on:
   workflow_run:
-    workflows: ["Node CI"]
-    if: github.ref == 'refs/heads/main'
+    workflows: ['Continuous Integration']
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    branches: [main]
     types:
       - completed
-
 jobs:
   gh-pages:
     name: gh-pages

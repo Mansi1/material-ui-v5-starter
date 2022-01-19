@@ -20,7 +20,7 @@ jobs:
       - name: Download artifact
         uses: dawidd6/action-download-artifact@v2
         with:
-          workflow: 'Continuous Integration'
+          workflow: ci.yml
           workflow_conclusion: success
           name: frontend-build
           path: build

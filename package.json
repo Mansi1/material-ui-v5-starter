@@ -2,6 +2,7 @@
   "name": "material-ui-v5-starter",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mansi1.github.io/material-ui-v5-starter",
   "scripts": {
     "prepare": "husky install",
     "start": "react-scripts start",

@@ -3,12 +3,13 @@ name: 'Continuous Deployment'
 on:
   workflow_run:
     workflows: ['Continuous Integration']
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     branches: [main]
     types:
       - completed
+
 jobs:
   gh-pages:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     name: gh-pages
     runs-on: ubuntu-latest
     steps:
@@ -16,9 +17,11 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12.x
-      - name: Download build
-        uses: actions/download-artifact@v2
+      - name: Download artifact
+        uses: dawidd6/action-download-artifact@v2
         with:
+          workflow: 'Continuous Integration'
+          workflow_conclusion: success
           name: frontend-build
           path: build
       - name: rename folder

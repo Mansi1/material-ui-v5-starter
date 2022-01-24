@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/material-ui-v5-starter/static/css/main.1d26c3b3.css",
-    "main.js": "/material-ui-v5-starter/static/js/main.0c40d52a.js",
+    "main.js": "/material-ui-v5-starter/static/js/main.c2f0d4f0.js",
     "static/js/787.27130011.chunk.js": "/material-ui-v5-starter/static/js/787.27130011.chunk.js",
     "static/media/roboto-all-500-normal.woff": "/material-ui-v5-starter/static/media/roboto-all-500-normal.52cb737b682eb9661ee1.woff",
     "static/media/roboto-all-700-normal.woff": "/material-ui-v5-starter/static/media/roboto-all-700-normal.ef6d1d09b20b877fee4e.woff",
@@ -23,6 +23,7 @@
     "static/media/roboto-cyrillic-400-normal.woff2": "/material-ui-v5-starter/static/media/roboto-cyrillic-400-normal.5e493812deabd1d01e60.woff2",
     "static/media/roboto-cyrillic-700-normal.woff2": "/material-ui-v5-starter/static/media/roboto-cyrillic-700-normal.0334efc0de1012200889.woff2",
     "static/media/roboto-cyrillic-300-normal.woff2": "/material-ui-v5-starter/static/media/roboto-cyrillic-300-normal.48e4b37ecbc5e155460e.woff2",
+    "static/media/forkMeOnGithub.svg": "/material-ui-v5-starter/static/media/forkMeOnGithub.65e721cd615cf6d0a379f0377a8933b4.svg",
     "static/media/roboto-greek-300-normal.woff2": "/material-ui-v5-starter/static/media/roboto-greek-300-normal.7c6b44c55d4d9661e3ed.woff2",
     "static/media/roboto-greek-400-normal.woff2": "/material-ui-v5-starter/static/media/roboto-greek-400-normal.1cbfc636c911faa4d0ca.woff2",
     "static/media/roboto-greek-500-normal.woff2": "/material-ui-v5-starter/static/media/roboto-greek-500-normal.007ca18d2cbae7381b39.woff2",
@@ -38,11 +39,11 @@
     "static/media/logo.svg": "/material-ui-v5-starter/static/media/logo.94accfee0d9f39ffd10b118e4e5ca702.svg",
     "index.html": "/material-ui-v5-starter/index.html",
     "main.1d26c3b3.css.map": "/material-ui-v5-starter/static/css/main.1d26c3b3.css.map",
-    "main.0c40d52a.js.map": "/material-ui-v5-starter/static/js/main.0c40d52a.js.map",
+    "main.c2f0d4f0.js.map": "/material-ui-v5-starter/static/js/main.c2f0d4f0.js.map",
     "787.27130011.chunk.js.map": "/material-ui-v5-starter/static/js/787.27130011.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1d26c3b3.css",
-    "static/js/main.0c40d52a.js"
+    "static/js/main.c2f0d4f0.js"
   ]
 }

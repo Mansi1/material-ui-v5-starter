@@ -26,6 +26,9 @@ const useStyle = makeStyles({
   switch: {
     cursor: "pointer",
   },
+  spacer: {
+    height: 80,
+  },
 })
 
 export const MainPage = () => {
@@ -113,6 +116,7 @@ export const MainPage = () => {
             DE
           </span>
         </Stack>
+        <div className={classes.spacer} />
       </div>
     </PageLayout>
   )

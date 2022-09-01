@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/material-ui-v5-starter/static/css/main.1d26c3b3.css",
-    "main.js": "/material-ui-v5-starter/static/js/main.c2f0d4f0.js",
+    "main.js": "/material-ui-v5-starter/static/js/main.37c3a8b9.js",
     "static/js/787.27130011.chunk.js": "/material-ui-v5-starter/static/js/787.27130011.chunk.js",
     "static/media/roboto-all-500-normal.woff": "/material-ui-v5-starter/static/media/roboto-all-500-normal.52cb737b682eb9661ee1.woff",
     "static/media/roboto-all-700-normal.woff": "/material-ui-v5-starter/static/media/roboto-all-700-normal.ef6d1d09b20b877fee4e.woff",
@@ -36,14 +36,14 @@
     "static/media/roboto-greek-ext-400-normal.woff2": "/material-ui-v5-starter/static/media/roboto-greek-ext-400-normal.bb723e8458c9c653e505.woff2",
     "static/media/roboto-greek-ext-300-normal.woff2": "/material-ui-v5-starter/static/media/roboto-greek-ext-300-normal.04e05839d6a35e046c13.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/material-ui-v5-starter/static/media/roboto-greek-ext-700-normal.9674bc0ae12c2551d9d1.woff2",
-    "static/media/logo.svg": "/material-ui-v5-starter/static/media/logo.94accfee0d9f39ffd10b118e4e5ca702.svg",
     "index.html": "/material-ui-v5-starter/index.html",
+    "static/media/logo.svg": "/material-ui-v5-starter/static/media/logo.94accfee0d9f39ffd10b118e4e5ca702.svg",
     "main.1d26c3b3.css.map": "/material-ui-v5-starter/static/css/main.1d26c3b3.css.map",
-    "main.c2f0d4f0.js.map": "/material-ui-v5-starter/static/js/main.c2f0d4f0.js.map",
+    "main.37c3a8b9.js.map": "/material-ui-v5-starter/static/js/main.37c3a8b9.js.map",
     "787.27130011.chunk.js.map": "/material-ui-v5-starter/static/js/787.27130011.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1d26c3b3.css",
-    "static/js/main.c2f0d4f0.js"
+    "static/js/main.37c3a8b9.js"
   ]
 }
